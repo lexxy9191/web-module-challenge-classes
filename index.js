@@ -183,9 +183,16 @@ class Student extends Lambdasian{
     this.previousBackground= previousBackground;
     this.className = className;
     this.favSubjects = favSubjects;
-
   }/*constructor*/
-   
+   listSubjects(){
+
+   }/*listSubject*/
+   PRAssignment(){
+    return `student.name has submitted a PR for ${subject}`
+   }/*PRAssignment*/
+   sprintChallenge(){
+return `student.name has begun sprint challenge on ${subject}`
+   }/*sprint*/
 }/*class*/
 
 /*
