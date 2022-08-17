@@ -93,7 +93,11 @@ this.tank = this.tank + gallons
     if(distance <= drivableMiles){
       this.odometer = this.odometer + distance;
       this.tank = this.tank - (distance / this.milesPerGallon);
-    }/*if*/
+    }/*if*/else{
+this.odometer = this.odometer + drivableMiles;
+this.tank = 0;
+return `I ran out of fuel at ${this.odometer} miles;`
+    }/*else*/
   }/*drive*/
 }/*class/*
 
