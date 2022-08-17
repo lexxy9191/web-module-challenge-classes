@@ -85,6 +85,12 @@ this.milesPerGallon = milesPerGallon;
 this.tank = 0;
 this.odometer = 0;
   }/*constructor*/ 
+  fill(gallons){
+this.tank = this.tank + gallons
+  }/*fill*/
+  drive(distance){
+    const drivableMiles = this.tank * this.milesPerGallon;
+  }/*drive*/
 }/*class/*
 
 /*
