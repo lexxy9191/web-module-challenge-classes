@@ -174,9 +174,19 @@ return `Today we are learning about ${subject}`;
         + `sprintChallenge` similar to PRAssignment but returns `student.name has begun sprint challenge on {subject}`
 */
 
-class Student {
+class Student extends Lambdasian{
+  constructor({name, age, location, previousBackground, className, favSubjects}){
+    super(name, age, location, previousBackground, className, favSubjects);
+    this.name = name;
+    this.age = age;
+    this.location = location;
+    this.previousBackground= previousBackground;
+    this.className = className;
+    this.favSubjects = favSubjects;
+
+  }/*constructor*/
    
-}
+}/*class*/
 
 /*
   TASK 6
