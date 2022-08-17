@@ -90,6 +90,10 @@ this.tank = this.tank + gallons
   }/*fill*/
   drive(distance){
     const drivableMiles = this.tank * this.milesPerGallon;
+    if(distance <= drivableMiles){
+      this.odometer = this.odometer + distance;
+      this.tank = this.tank - (distance / this.milesPerGallon);
+    }/*if*/
   }/*drive*/
 }/*class/*
 
