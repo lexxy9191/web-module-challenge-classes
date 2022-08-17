@@ -141,8 +141,15 @@ this.location = location;
 */
 
 class Instructor {
-
-}
+ constructor({name, age, location, specialty, favLanguage, catchPhrase}){
+this.name = name;
+this.age = age;
+this.location = location;
+this.specialty = specialty;
+this.favLanguage = favLanguage;
+this.catchPhrase = catchPhrase;
+ }/*constructor*/
+}/*instructor*/
 
 /*
   TASK 5
