@@ -185,7 +185,7 @@ class Student extends Lambdasian{
     this.favSubjects = favSubjects;
   }/*constructor*/
    listSubjects(){
-
+return `Loving ${this.favSubjects}`
    }/*listSubject*/
    PRAssignment(){
     return `student.name has submitted a PR for ${subject}`
