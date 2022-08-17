@@ -185,13 +185,13 @@ class Student extends Lambdasian{
     this.favSubjects = favSubjects;
   }/*constructor*/
    listSubjects(){
-return `Loving ${this.favSubjects}`
+return `Loving ${this.favSubjects}`;
    }/*listSubject*/
-   PRAssignment(){
-    return `student.name has submitted a PR for ${subject}`
+   PRAssignment(subject){
+    return `${this.name} has submitted a PR for ${subject}`;
    }/*PRAssignment*/
-   sprintChallenge(){
-return `student.name has begun sprint challenge on ${subject}`
+   sprintChallenge(subject){
+return `${this.name} has begun sprint challenge on ${subject}`;
    }/*sprint*/
 }/*class*/
 
