@@ -120,6 +120,9 @@ this.name = name;
 this.age = age;
 this.location = location;
   }/*constructor*/
+  speak(){
+
+  }/*speak*/
 }/*class*/
 
 /*
