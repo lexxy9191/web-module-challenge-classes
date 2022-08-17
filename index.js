@@ -121,7 +121,7 @@ this.age = age;
 this.location = location;
   }/*constructor*/
   speak(){
-    return `Hello my name is ${this.name}, I am from ${this.location};`
+    return `Hello my name is ${this.name}, I am from ${this.location}`;
   }/*speak*/
 }/*class*/
 
@@ -142,7 +142,7 @@ this.location = location;
 
 class Instructor extends Lambdasian {
  constructor({name, age, location, specialty, favLanguage, catchPhrase}){
-super(name, age, location);
+super(name, age, location, specialty, favLanguage, catchPhrase);
 this.name = name;
 this.age = age;
 this.location = location;
@@ -150,6 +150,12 @@ this.specialty = specialty;
 this.favLanguage = favLanguage;
 this.catchPhrase = catchPhrase;
  }/*constructor*/
+ demo(subject){
+return `Today we are learning about ${subject}`;
+ }/*demo*/
+ grade(student, subject){
+  return `${student.name} receives a perfect score on ${subject}`;
+ }/*grade*/
 }/*instructor*/
 
 /*
