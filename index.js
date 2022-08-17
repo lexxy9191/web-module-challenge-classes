@@ -47,7 +47,9 @@ class Person {
   constructor(name, age) {
     this.name = name;
     this.age = age;
+    var stomach = [];
   }
+  
   
 }
 
@@ -66,7 +68,10 @@ class Person {
 */
 
 class Car {
-  
+  constructor(model, milesPerGallon) {
+this.model = model;
+this.milesPerGallon = milesPerGallon;
+  }
 }
 
 /*
