@@ -121,7 +121,7 @@ this.age = age;
 this.location = location;
   }/*constructor*/
   speak(){
-
+    return `Hello my name is ${this.name}, I am from ${this.location};`
   }/*speak*/
 }/*class*/
 
