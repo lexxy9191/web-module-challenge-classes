@@ -115,8 +115,12 @@ return `I ran out of fuel at ${this.odometer} miles;`
 */
 
 class Lambdasian {
-  
-}
+  constructor({name, age, location}){
+this.name = name;
+this.age = age;
+this.location = location;
+  }/*constructor*/
+}/*class*/
 
 /*
   TASK 4
